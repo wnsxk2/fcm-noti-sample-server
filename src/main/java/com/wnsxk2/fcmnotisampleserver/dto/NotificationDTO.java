@@ -12,8 +12,8 @@ public class NotificationDTO implements Serializable {
     @Getter
     @Setter
     public static class Request {
-        private String name;
-        private String region;
+        private String title;
+        private String message;
     }
 
     @NoArgsConstructor
@@ -22,7 +22,7 @@ public class NotificationDTO implements Serializable {
     @Getter
     @Setter
     public static class Response {
-        private String name;
-        private String region;
+        private String title;
+        private String message;
     }
 }

@@ -28,8 +28,8 @@ public class NotificationTest {
     void requestNotification() throws Exception {
 
         Request request = Request.builder()
-                .name("joontae")
-                .region("saha")
+                .title("joontae")
+                .message("saha")
                 .build();
 
         ObjectMapper objectMapper = new ObjectMapper();
